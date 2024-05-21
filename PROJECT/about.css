@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    background-image: url('img/bgcolor.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+header {
+    display: flex; 
+    justify-content: space-around;
+    width: 100%;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    width: 38%;
+}
+a {
+    padding: 30px;
+    font-size: 25px;
+    margin-top: 1px;
+    list-style-type: none;
+    color: white;
+    text-shadow:  2px 2px 2px rgba(0, 0, 0, 0.334);
+    text-decoration: none;
+}
+.s1 {
+    color: white;
+    display: flex;
+}
+.c1 {
+    padding: 20px;
+    margin-top: 80px;
+}
+#r1 {
+    font-size: 50px;
+    color: pink;
+    text-shadow:  2px 2px 2px rgba(0, 0, 0, 0.334);
+}
+#r2 {
+    font-size: 90px;
+    color: skyblue;
+    font-weight: bolder;
+    text-shadow:  2px 2px 2px rgba(0, 0, 0, 0.334);
+}
+a:hover {
+    color: pink;
+}
+.c2 {
+    background-color: skyblue;
+    width: 650px;
+    height: 600px;
+    margin-left: 20px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.334);
+}
+.r4 {
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
